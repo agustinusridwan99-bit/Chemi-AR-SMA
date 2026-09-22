@@ -756,17 +756,71 @@ const BANK_SOAL = {
     { q:"Minuman isotonik bermanfaat bagi atlet karena...", o:["Menggantikan ion tubuh yang hilang","Menambah energi tanpa ion","Mengandung alkohol","Tanpa mineral"], j:0, p:"Isotonik mengandung elektrolit Na⁺, K⁺, Cl⁻.", t:"Atlet kehilangan ion lewat keringat." }
   ],
   boss: [
-    { q:"Larutan yang tidak dapat menghantarkan listrik adalah...", o:["Larutan garam","Larutan cuka","Larutan urea","Air laut"], j:2, p:"Urea non-elektrolit.", t:"Non-elektrolit = tanpa ion." },
-    { q:"Komponen alat uji elektrolit sebagai indikator visual adalah...", o:["Baterai","Lampu","Gelas kimia","Kabel"], j:1, p:"Lampu indikator: menyala = ada arus.", t:"Komponen yang menyala." },
-    { q:"Elektroda pada uji elektrolit umumnya terbuat dari...", o:["Karbon (grafit)","Besi","Tembaga","Plastik"], j:0, p:"Karbon konduktor inert, tidak bereaksi.", t:"Konduktor inert." },
-    { q:"Elektrolit kuat ditunjukkan oleh...", o:["Ionisasi sebagian","Ionisasi sempurna","Tidak terionisasi","Larut tanpa ion"], j:1, p:"Elektrolit kuat α = 1 (sempurna).", t:"Kuat = sempurna." },
-    { q:"Ionisasi H₃PO₄ (asam lemah) yang benar...", o:["H₃PO₄ → 3H⁺ + PO₄³⁻","H₃PO₄ ⇌ 3H⁺ + PO₄³⁻","H₃PO₄ → H⁺ + H₂PO₄⁻","H₃PO₄ ⇌ H⁺ + H₂PO₄⁻"], j:3, p:"Asam lemah, ionisasi sebagian, gunakan ⇌.", t:"Lemah = ⇌." },
-    { q:"Pasangan ion + kovalen polar yang keduanya elektrolit kuat...", o:["NaCl dan HCl","CH₃COOH dan NaCl","Glukosa dan HCl","Urea dan NaCl"], j:0, p:"NaCl (ion) dan HCl (kovalen polar) keduanya sempurna.", t:"Cari yang sempurna." },
-    { q:"Gelembung sedikit, lampu redup menunjukkan...", o:["Elektrolit kuat","Elektrolit lemah","Non-elektrolit","Bukan larutan"], j:1, p:"Ion sedikit → elektrolit lemah.", t:"Redup + sedikit = lemah." },
-    { q:"Kegunaan elektrolit dalam tubuh manusia...", o:["Menjaga keseimbangan cairan & impuls saraf","Sumber energi utama","Membentuk tulang","Mengangkut oksigen"], j:0, p:"Ion Na⁺, K⁺, Ca²⁺, Cl⁻ untuk keseimbangan cairan & saraf.", t:"Ion = fungsi fisiologis." },
-    { q:"Larutan CaCl₂ 0,1 M elektrolit kuat karena...", o:["Terionisasi sempurna → Ca²⁺ + 2Cl⁻","Terionisasi sebagian","Tidak terionisasi","Hanya larut"], j:0, p:"CaCl₂ → Ca²⁺ + 2Cl⁻ sempurna.", t:"Garam ion → kuat." },
-    { q:"Zat berikut yang non-elektrolit adalah...", o:["HCl","NaOH","C₂H₅OH","H₂SO₄"], j:2, p:"Etanol larut sebagai molekul netral.", t:"Alkohol = non-elektrolit." }
-  ]
+  {
+    q:"Dalam praktikum daya hantar listrik, tiga larutan diuji dengan alat elektrolit. Larutan NaCl membuat lampu menyala terang dan muncul banyak gelembung. Larutan CH₃COOH membuat lampu menyala redup dan muncul sedikit gelembung, sedangkan larutan glukosa tidak menyalakan lampu. Berdasarkan hasil tersebut, perbedaan ketiga larutan yang paling tepat adalah...",
+    o:[
+      "NaCl elektrolit kuat, CH₃COOH elektrolit lemah, dan glukosa non-elektrolit",
+      "NaCl dan CH₃COOH elektrolit kuat, sedangkan glukosa non-elektrolit",
+      "NaCl elektrolit kuat, sedangkan CH₃COOH dan glukosa elektrolit lemah",
+      "Ketiganya elektrolit karena dapat larut dalam air"
+    ],
+    j:0,
+    p:"NaCl menghasilkan banyak ion sehingga menjadi elektrolit kuat. CH₃COOH hanya terionisasi sebagian sehingga elektrolit lemah. Glukosa larut sebagai molekul sehingga tidak menghasilkan ion.",
+    t:"Bandingkan jumlah ion yang dihasilkan setiap larutan."
+  },
+
+  {
+    q:"Perhatikan dua zat berikut. Zat A adalah NaCl yang tersusun atas ion Na⁺ dan Cl⁻, sedangkan zat B adalah HCl yang tersusun atas molekul kovalen polar. Ketika keduanya dilarutkan dalam air, kedua larutan dapat menyalakan lampu dengan terang. Perbandingan yang tepat antara NaCl dan HCl adalah...",
+    o:[
+      "NaCl menghasilkan ion melalui pemisahan ion dalam senyawa, sedangkan HCl menghasilkan ion melalui ionisasi molekul",
+      "NaCl dan HCl sama-sama berupa senyawa ion yang terurai menjadi ion",
+      "NaCl berupa molekul polar, sedangkan HCl berupa senyawa ion",
+      "NaCl tidak menghasilkan ion, sedangkan HCl menghasilkan ion"
+    ],
+    j:0,
+    p:"NaCl merupakan senyawa ion yang ketika larut mengalami disosiasi menjadi ion-ionnya. HCl merupakan senyawa kovalen polar yang terionisasi dalam air menghasilkan ion.",
+    t:"Bedakan asal ion pada NaCl dan HCl."
+  },
+
+  {
+    q:"Seorang siswa membandingkan larutan glukosa dan larutan NaCl dengan konsentrasi yang sama. Glukosa dapat larut dalam air, tetapi lampu pada alat uji elektrolit tidak menyala. Sebaliknya, larutan NaCl membuat lampu menyala terang. Kesimpulan yang paling tepat adalah...",
+    o:[
+      "Glukosa dan NaCl sama-sama menghasilkan ion, tetapi NaCl menghasilkan lebih banyak ion",
+      "Glukosa larut sebagai molekul, sedangkan NaCl menghasilkan ion yang dapat bergerak bebas dalam larutan",
+      "Glukosa merupakan elektrolit lemah karena hanya sebagian larut dalam air",
+      "NaCl merupakan non-elektrolit karena hanya dapat menghantarkan listrik dalam larutan"
+    ],
+    j:1,
+    p:"Glukosa tidak terionisasi ketika larut sehingga tetap sebagai molekul. NaCl menghasilkan ion Na⁺ dan Cl⁻ yang dapat bergerak bebas dan menghantarkan listrik.",
+    t:"Bandingkan partikel yang terdapat dalam kedua larutan."
+  },
+
+  {
+    q:"Empat larutan diuji menggunakan alat uji elektrolit. Hasil pengamatan menunjukkan: P lampu terang, Q lampu redup, R lampu tidak menyala, dan S lampu terang. Jika P adalah HCl dan R adalah glukosa, pasangan identifikasi yang paling sesuai untuk Q dan S adalah...",
+    o:[
+      "Q = CH₃COOH dan S = NaCl",
+      "Q = NaCl dan S = CH₃COOH",
+      "Q = glukosa dan S = CH₃COOH",
+      "Q = HCl dan S = glukosa"
+    ],
+    j:0,
+    p:"HCl dan NaCl merupakan elektrolit kuat sehingga lampu terang. CH₃COOH merupakan elektrolit lemah sehingga lampu redup. Glukosa merupakan non-elektrolit sehingga lampu tidak menyala.",
+    t:"Cocokkan hasil pengamatan dengan kekuatan elektrolit."
+  },
+
+  {
+    q:"Perhatikan tiga keadaan NaCl berikut: (1) NaCl padat, (2) NaCl cair karena dilelehkan, dan (3) NaCl dilarutkan dalam air. Pada keadaan (1) lampu tidak menyala, sedangkan pada keadaan (2) dan (3) NaCl dapat menghantarkan listrik. Perbedaan kondisi tersebut menunjukkan bahwa...",
+    o:[
+      "Ion Na⁺ dan Cl⁻ hanya dapat bergerak bebas ketika NaCl berbentuk padat",
+      "NaCl hanya dapat menghantarkan listrik jika berubah menjadi molekul",
+      "Pada lelehan dan larutan, ion-ion Na⁺ dan Cl⁻ dapat bergerak bebas sehingga membawa muatan listrik",
+      "NaCl padat tidak memiliki ion, sedangkan NaCl cair memiliki ion"
+    ],
+    j:2,
+    p:"Dalam kristal NaCl padat, ion-ion berada pada posisi yang relatif tetap. Ketika dilelehkan atau dilarutkan, ion menjadi dapat bergerak bebas sehingga dapat menghantarkan listrik.",
+    t:"Bandingkan kebebasan gerak ion pada tiga keadaan."
+  }
+]
 };
 
 /* ============================================================
